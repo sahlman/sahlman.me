@@ -1,0 +1,26 @@
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: Filmi- ja märkälevykuvaaja
+email: marko@sahlman.me
+brand: Valokuvaaja Marko Sahlman
+headline: Filmi- ja märkälevykuvaaja
+description: > # this means to ignore newlines until "baseurl:"
+  Valokuvaaja Marko Sahlman, Filmi- ja märkälevykuvaus.
+  Käsityönä kestäviä valokuvia vuoden 1851 menetelmin.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sahlman.me" # the base hostname & protocol for your site
+copyright: 2019 Valokuvaaja Marko Sahlman. Kaikki oikeudet pidätetään.
+
+# Build settings
+markdown: kramdown
+
+# Account ids
+snapwidget: 247552
+
+# Contacts
+email: marko@sahlman.me
+phone: +358 45 12 111 25
+
+future: true
+exclude:
+  - node_modules

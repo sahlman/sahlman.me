@@ -1,0 +1,16 @@
+<section class="container container-portfolio">
+  <h2>Märkälevykuvia</h2>
+
+
+  <div class="col-md-12">
+    <div id="imagegrid">
+        <div class="row">
+          {% for image in page.images %}
+          <div class="column">
+            <img src="{{ image.image_path }}" alt="{{ image.title }}"/>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+</section>
