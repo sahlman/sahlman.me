@@ -39,4 +39,22 @@ $(document).ready(function () {
         }, 300);
     });
 
+
+    if ($('#contactform').length) {
+      $('#contactform').submit(function(e) {
+          var email = $('#email').val();
+          var tel = $('#tel').val();
+          var msg = $('#msg').val();
+          if (email.length || tel.length) {
+            if (!msg.length) {
+              e.preventDefault();
+              $('#message').html('<div class="alert alert-danger" role="alert">Syötä viesti</div>');
+            }
+          } else {
+            e.preventDefault();
+            $('#message').html('<div class="alert alert-danger" role="alert">Anna sähköposti tai puhelinnumero</div>');
+          }
+
+      });
+    }
   });
