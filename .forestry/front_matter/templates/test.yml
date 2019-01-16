@@ -1,0 +1,17 @@
+---
+label: test
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: testikentta
+  label: Testikenttä
+- type: boolean
+  name: toggle
+  label: toggle
+- type: datetime
+  name: datefield
+  label: datefield
+- type: textarea
+  name: contentarea
+  label: textarea
