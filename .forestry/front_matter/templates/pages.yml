@@ -11,5 +11,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: file
+- type: tag_list
+  name: tags
+  label: tags
 pages:
 - pages/test.html
